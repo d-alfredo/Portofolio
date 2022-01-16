@@ -6,7 +6,7 @@ export const MenuItems = [
     },
     {
         title : 'Service',
-        url: '#',
+        url: '../Service/Service.jsx',
         cName: 'nav-links'
     },
     {
@@ -24,4 +24,4 @@ export const MenuItems = [
         url: '#',
         cName: 'nav-links-mobile'
     },
-]
+];
