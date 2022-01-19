@@ -5,18 +5,18 @@
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    min-height: 100vh;
 }
-.content{
-    height: 560px;
+section{
     display: flex;
+    min-height: 70vh;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 h1{
     font-family: 'Permanent Marker', cursive;
     font-size: 2em;
-    margin-bottom: 100px;
-    text-align: center;
 }
 em{
     font-family: 'Permanent Marker', cursive;

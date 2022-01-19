@@ -5,8 +5,8 @@ import Service from './components/Service/Service';
 function App() {
   return (
     <div className='app'>
-      {/* <Home/> */}
-      <Service/>
+      <Home/>
+      {/* <Service/> */}
     </div>
   )
 }

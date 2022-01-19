@@ -5,13 +5,12 @@ export default function Home() {
     return (
         <div className='home'>
             <Navbar />
-            <div className='content'>
-                <h1>Hi, I'm <br></br>
-                <em> Dimas Alfredo </em><br></br>
-                Junior <br></br>
-                Web Developer.
-                </h1>
-            </div>
+            <section>
+                <h2>Hi, I'm</h2>
+                <h1>Dimas alfredo</h1>
+                <p><em>Junior
+                Web Developer.</em></p>
+            </section>
         </div>
     )
 }
